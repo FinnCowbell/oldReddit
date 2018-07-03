@@ -1,0 +1,26 @@
+{
+  "name": "Always Old Reddit",
+  "version": "1.0",
+  "description": "Gives the option to always redirect reddit.com/blah to old.reddit.com/blah",
+  "page_action": {
+    "default_popup": "options.html",
+    "default_title": "oldReddit",
+    "default_icon": {
+      "16": "images/alien16.png",
+      "32": "images/alien32.png",
+      "64": "images/alien64.png",
+      "128": "images/alien128.png"}
+  },
+  "icons":{
+        "16": "images/alien16.png",
+        "32": "images/alien32.png",
+        "64": "images/alien64.png",
+        "128": "images/alien128.png"},
+  "permissions": ["declarativeContent", "storage","tabs"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
